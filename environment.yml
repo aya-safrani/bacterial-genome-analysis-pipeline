@@ -1,0 +1,21 @@
+name: pgpr_E3
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - fastqc
+  - trimmomatic
+  - skesa
+  - spades
+  - megahit
+  - velvet
+  - shovill
+  - unicycler
+  - quast
+  - busco
+  - parsnp
+  - fastani
+  - prokka
+  - bakta
+  - eggnog-mapper
+  - python>=3.10
+  - matplotlib
+  - pandas
